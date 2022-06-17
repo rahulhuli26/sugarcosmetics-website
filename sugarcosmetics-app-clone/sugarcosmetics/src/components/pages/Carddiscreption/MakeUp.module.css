@@ -1,0 +1,102 @@
+
+#unit{
+    /* border:1px solid red */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 390px;
+    /* padding : 10px; */
+
+ 
+}
+#img{
+    height: 240px;
+    width: 184px;
+    object-fit: cover
+}
+.whislisticon
+{
+    height: 30px;
+    width: 30px;
+}
+#btn{
+    justify-content: right;
+    background-color: #212529;
+    color: #FFFFFF;
+    font-family: "Quicksand";
+    height:40px;
+    width: 500px;
+   border: 0px;
+   
+
+}
+#btnHold{
+    justify-content: right;
+    cursor: pointer;
+    display: none;
+    /* border:1px solid green; */
+}
+
+#unit:hover #btnHold{
+    display:flex;
+    transition: display 4s;
+    gap: 10px;
+ }
+ #unit:hover #unit{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+ #name{
+     /* color: #808080; */
+     color: gray;
+     font-size: 13px;
+     font-family: "Neutra_Display_Titling";
+     margin: 0px 0px 2px;
+     font-weight: 800;
+
+     text-align: center;
+ }
+ #price{
+     color: #000000;
+     font-size: 15px;
+     font-family: "Quicksand";
+
+ }
+ #ratingHold{
+     display: flex;
+padding-top: 2px; ;
+     /* height:20px; */
+     /* border:1px solid purple; */
+     justify-content: center;
+ }
+ #star{
+     height: 20px;
+     width:auto;
+     object-fit: cover;
+ }
+ #rating{
+    color: #000000;
+    font-size: 15px;
+    font-family: "Quicksand";
+    padding: 0px;
+    margin-top: 2px;
+ }
+ #info{
+     display: flex;
+     justify-content: left;
+    
+ }
+ #h1{
+     color: #212529;
+     font-size: 18.4px;
+     font-family:"Quicksand";
+     margin-left:100px;
+    font-weight: 400;
+ }
+ #items{
+     color: #6C757D;
+     font-size: 16.4px;
+     margin-top: 11px;
+    margin-left: 15px;
+
+ }

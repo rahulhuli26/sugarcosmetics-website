@@ -1,0 +1,73 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // border: 1px solid gray;
+    height: 914.727px;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 15px;
+    // margin: 0 -12px 0 -12px;
+    background-color: white;
+
+}
+
+.main img{
+    justify-content: center;
+    height: 286px;
+    width: 381px;
+    border-radius: 8px;
+}
+
+.upperline{
+    height: 42px;
+    font-size: 32px;
+    line-height: 44px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    // padding: 8px 0 0 0;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.head{
+    // margin-bottom: 10px;
+}
+
+.getOffers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    gap: 2%;
+}
+
+.myImage{
+    height: 255px;
+    width: 230px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.box{
+    height: 452px;
+    width: 279px;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 100px;
+    // border: 1px solid gray;
+    margin: auto;
+    background-color: white;
+    font-size: 16px;
+}
+
+.tag{
+    margin-right: 190px;
+    margin-bottom: 0;
+    padding: 0;
+}
